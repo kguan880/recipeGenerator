@@ -6,7 +6,7 @@ const router = express.Router()
 
 router.get('/', (req,res)=>{
 
-    const template = './layouts/main'
+    const template = 'recipeList'
     
     db.getRecipes()
         .then(recipes =>{

@@ -1,0 +1,9 @@
+<h2>List of your recipes!</h2>
+
+{{#each recipes}}
+<ul>
+    <li><a href='/recipe/{{id}}'>{{name}} ({{id}})</a></li>
+</ul>
+{{/each}}
+<br>
+{{>recipeForm}}
