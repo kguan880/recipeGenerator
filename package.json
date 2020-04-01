@@ -1,0 +1,22 @@
+{
+  "name": "recipeGenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "knex": "knex",
+    "dev": "nodemon index",
+    "start": "node index",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.1",
+    "jest": "^25.2.4",
+    "knex": "^0.20.13",
+    "sqlite3": "^4.1.1"
+  }
+}
