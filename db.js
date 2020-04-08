@@ -17,7 +17,13 @@ function addRecipe(recipeName, recipeID, db = connection){
     })
 }
 
+//add/join ingredients to recipes/database
+function addIngredient(ingredientName, ingredientID, recipeID, db = connection){
+
+}
+
 module.exports ={
     getRecipes,
-    addRecipe
+    addRecipe,
+    addIngredient
 }
